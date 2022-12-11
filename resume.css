@@ -137,6 +137,11 @@ table tr th{
   width: 38%;
 }
 
+.education details {
+  padding: 10px;
+  margin: 5px;
+}
+
 .my-image {
   float: left;
   border-radius: 10%;
