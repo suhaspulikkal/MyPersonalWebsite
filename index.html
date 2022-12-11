@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="SparkyPulikkal">
+  <meta name="description" content="This is my Resume">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/02d356a16d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+
+  <!-- **************************HEADER SECTION************************** --> 
+
+  <header >
+
+    <nav class="navbar navbar-dark bg-dark  navbar-expand-lg">
+      
+      <a href="resume.html" class="navbar-brand" >My Resume</a>
+
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse " id="main-nav">
+
+      <ul class="navbar-nav ms-auto" >
+        <li class="nav-item"> <a class="nav-link" href="#education"> Education</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#container-projects"> Projects</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#experience"> Experience</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#about"> About</a> </li>
+      </ul>
+      </div>
+    </nav>
+
+  </header>
+  
+<!-- **************************END OF HEADER SECTION*********************** -->
+
+
+  <!-- **************************MAIN  SECTION**************************-->
+
+  <main>
+
+    <div class="container-fluid">
+      <h2>Personal Information</h2>
+
+      <div class="personalinfo">
+        <div class="row">
+
+          <!--PERSONAL INFORMATION COLUMN 1-->
+          <div class="col col1 col-lg-4 col-md-4 col-sm-4">
+            <div class="row">
+              <figure class="col" style="padding: 20px;">
+                <img src="images/lady-img.jpg" alt="My-Image" class="my-image">
+              </figure>
+            
+         
+            <div class="col" style="padding: 15px;">
+              <h3>Suhas Pulikkal</h3>
+              <address>
+                #6 3rd main <br>
+                9th cross <br>
+                Chandra layout <br>
+                Bangalore 560-039
+              </address>
+            </div>
+          </div>
+           
+          </div>
+                  <!--PERSONAL INFORMATION COLUMN 2-->
+          <div class="col col1 col-lg-4 col-md-4 col-sm-4 specialcol" >
+              <label for="dob">D.O.B :    </label><br>
+              <input type="text" name="dob" id="dob" value="05-01-1998" readonly="readonly"><br><br>
+              <label for="dob">Blood Group :</label><br>
+              <input type="text" name="dob" id="dob" value="B+" readonly="readonly">
+          </div>
+                  <!--PERSONAL INFORMATION COLUMN 3-->
+          <div class="col col1 col-lg-4 col-md-4 col-sm-4 specialcol">
+            <label for="email">Email :</label><br>
+            <input type="email" name="email" id="email" value="suhasps05@gmail.com" readonly="readonly"><br><br>
+            <label for="phone">Phone :</label><br>
+            <input type="phone" name="phone" id="phone" value="+91 8050382198" readonly="readonly">
+          </div>
+  
+          </div>
+
+      </div>
+
+     
+    </div>
+
+    <!-- **************END OF CONTAINER-FLUID 1********************-->
+
+    <div class="container-fluid" id="education">
+      
+      <h2>Educational Qualifications</h2>
+
+      <div class="education">
+          <details>
+            <summary>
+             Bachelor of Computer Application 
+            </summary>
+
+            <table>
+              <tr>
+                <th>College</th>
+                <th>University</th>
+                <th>Year</th>
+                <th>Percentage</th>
+              </tr>
+
+              <tr>
+                <td>Nri Institute</td>
+                <td>Bangalore University</td>
+                <td>2020</td>
+                <td>75%</td>
+              </tr>
+            </table>
+    
+          </details>
+    
+          <details>
+            <summary>
+              II PUC ( Pre University Certificate)
+            </summary>
+
+            <table>
+              <tr>
+                <th>College</th>
+                <th>University</th>
+                <th>Year</th>
+                <th>Percentage</th>
+              </tr>
+
+              <tr>
+                <td>Sri Vasavi International PU College</td>
+                <td>Bangalore University</td>
+                <td>2016</td>
+                <td>75%</td>
+              </tr>
+            </table>
+
+          </details>
+    
+          <details>
+            <summary>
+              S.S.L.C Examination (10th)
+            </summary>
+
+            <table>
+              <tr>
+                <th>School</th>
+                <th>Board</th>
+                <th>Year</th>
+                <th>Percentage</th>
+              </tr>
+
+              <tr>
+                <td>St John's High Scool</td>
+                <td>Karnataka Secondary Education Board</td>
+                <td>2014</td>
+                <td>70%</td>
+              </tr>
+            </table>
+    
+          </details>  
+          </div>
+          </div>
+
+         <!--  <div class="container">
+            <h4>            Professional Course certifications            </h4><br><br>
+            <div id="crashcourse" class="carousel slide" data-interval="0" data-pause="hover" data-bs-ride="carousel">
+
+              <div class="carousel-inner">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#crashcourse" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button class="bg-success" type="button" data-bs-target="#crashcourse" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button class="bg-success" type="button" data-bs-target="#crashcourse" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+          
+                <div class="carousel-item active">
+          
+                  <h2>Python</h2>
+                  <img class="python-img" src="" >
+                  <em>Inventateq, Bangalore</em>
+                      </div>
+          
+                <div class="carousel-item">
+          
+                  <h2>Django</h2>
+                  <img class="django-img" src="" >
+                  <em>Inventateq, Bangalore</em>
+                  </div>
+          
+                </div>  
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div> -->
+
+    <!-- ***********************************************Projects*************************************************-->
+
+    <div class="container-fluid" id="container-projects">
+      <h2>Projects</h2>
+      <div class="carousel slide" id="carousel-projects" data-interval="0" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <img src="images/resumebanner.webp" class="resumeapp" alt="Resume">
+          </div>
+          <div class="carousel-item">
+            
+            <img src="images/game1.jpg" class="game" alt="Game">
+          </div>
+          <div class="carousel-item">
+            
+            <img src="images/portfolio.jpg" class="portfolio" alt="Portfolio">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev prebutton" type="button" data-bs-target="#carousel-projects" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+         </button>
+     
+         <button class="carousel-control-next nextbutton" type="button" data-bs-target="#carousel-projects" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid" id="experience">
+      <h2>Experience</h2>   
+
+      <div class="experience">
+        <details class="details">
+          <summary>Concentrix</summary>
+          <div class="flex-field">
+            <div>
+              <label for="designation1">Designation :</label>
+            <input type="text" value="Advisor" name="designation1" id="designation1" readonly>
+              
+            </div>
+            <div>
+              <label for="joining-Date">Joining-Date :</label>
+            <input type="text" value="OCT-04-2021" name="joining-Date" id="joining-Date" readonly>
+            
+            </div>
+            <div>
+              <label for="Industry">Industry :</label>
+              <input type="text" value="E-Commerce" name="Industry" id="Industry" readonly>
+              
+            </div>
+            <div>
+              
+              <label for="Department">Department :</label>
+              <input type="text" value="Operations, Bangalore" name="Department" id="Department1" readonly>
+            </div>
+            <div>
+              
+              <label for="End-Date">End-Date :</label>
+              <input type="text" value="Present" name="End-Date" id="End-Date1" readonly>
+            </div>
+            <div>
+              <label for="Process">Process :</label>
+            <input type="text" value="Walmart Canada" name="Process" id="Process" readonly>
+          
+            </div>
+            </div>
+        </details>
+
+        <details class="details">
+          <summary>Intarvo technologies</summary>
+          <div class="flex-field">
+            <div>
+              <label for="designation1">Designation :</label>
+            <input type="text" value="Advisor" name="designation1" id="designation1" readonly>
+              
+            </div>
+            <div>
+              <label for="joining-Date">Joining-Date :</label>
+            <input type="text" value="OCT-04-2021" name="joining-Date" id="joining-Date" readonly>
+            
+            </div>
+            <div>
+              <label for="Industry">Industry :</label>
+              <input type="text" value="E-Commerce" name="Industry" id="Industry" readonly>
+              
+            </div>
+            <div>
+              
+              <label for="Department">Department :</label>
+              <input type="text" value="Operations, Bangalore" name="Department" id="Department1" readonly>
+            </div>
+            <div>
+              
+              <label for="End-Date">End-Date :</label>
+              <input type="text" value="Present" name="End-Date" id="End-Date1" readonly>
+            </div>
+            <div>
+              <label for="Process">Process :</label>
+            <input type="text" value="Walmart Canada" name="Process" id="Process" readonly>
+          
+            </div>
+            </div>
+        </details>
+
+      </div>
+
+          
+           
+    </div>
+
+    <div class="green" id="about">
+      <h2>About</h2>
+      <div class="carousel slide" data-bs-ride="carousel" data-interval="0" >
+        <div class="carousel-inner">
+          <div class="carousel-item active box">
+            <h3>I Love Coding!</h3>
+          </div>
+          <div class="carousel-item box">
+            <h3>I'm Passionate about creating web applications and deploying it on the Cloud!</h3>
+          </div>
+          <div class="carousel-item box">
+            <h3>Check out my skills in the Projects section!</h3>
+          </div>
+          <div class="carousel-item box">
+            <h3>Contact Me through the below beautiful Icons! Let's Run!</h3>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+<!--**************************END OF MAIN SECTION-->
+  
+  <!--**************************FOOTER SECTION**************************-->
+  <footer class="bg-dark">
+    <div id="footer">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-square-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <p>© Copyright Suhas Pulikkal</p>
+      <p><a href="resumeconcepts.html">Click here to know about the concepts used in this webpage</a></p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
